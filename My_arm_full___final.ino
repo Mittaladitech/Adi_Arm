@@ -1,21 +1,24 @@
+//Created by Aditya Mittal
+//Anyone can use it.
+
 #include <Servo.h> 
  
 Servo middle, left, right, claw ;  // creates 4 "servo objects"
- float a=00,b=130,c=70,d=05,da=12,db=400;
+ float a=00,b=130,c=70,d=05,da=12,db=400;  //Set initials 
 void setup() 
 { 
   Serial.begin(9600);
-  middle.attach(6);  // attaches the servo on pin 11 to the middle object
-  left.attach(9);  // attaches the servo on pin 10 to the left object
-  //left.attach(10);
+  middle.attach(6);  // attaches the servo on pin 6 to the middle object
+  left.attach(9);  // attaches the servo on pin 9 to the left object
   //left.attach(9);
-  
-  right.attach(3);  // attaches the servo on pin 9 to the right object
-  claw.attach(5);  // attaches the servo on pin 6 to the claw object
+    right.attach(3);  // attaches the servo on pin 3 to the right object
+  claw.attach(5);  // attaches the servo on pin 5 to the claw object
   
  pinMode(13,OUTPUT);
  digitalWrite(13,HIGH);
 }
+
+//Z1, Z2, clawc and clawo are the function to exicute define task when called.
 
 void Z1()   //down
 { b=b+0.6;
@@ -98,7 +101,4 @@ middle.write(60);
 middle.write(30);
 }
     
- 
- 
-
- 
+//Thank you, Have a nice day.
