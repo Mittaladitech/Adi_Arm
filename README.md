@@ -1,4 +1,4 @@
-# Adi_Arm
+# Adi_Arm  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/Mittaladitech/Adi_Arm/blob/master/LICENSE)<br>
 Hi world, I have made a ME_ARM code for pre-define movement.
 
 Typicaly, a me_arm containes of four mini servo(SG90) motors
