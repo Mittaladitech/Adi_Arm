@@ -7,3 +7,4 @@ The code is self explainary
                 Left Servo   - Pin 9
                 Right Servo  - Pin 3
                 Claw Serco   - Pin 5
+For More Info:- https://www.instructables.com/id/MeArm-Build-a-Small-Hackable-Robot-Arm/
